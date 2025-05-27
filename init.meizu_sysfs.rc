@@ -1,0 +1,9 @@
+on post-fs-data
+    chmod 0777 /sys/class/meizu/tp/gesture_control
+    chmod 0777 /sys/class/meizu/wireless/reverse_chg_enable
+    chmod 0777 /sys/kernel/display_drivers/aod_light_mode
+    chmod 0777 /sys/class/meizu/charger/hlos_chg_disable
+    chmod 0777 /sys/kernel/display_drivers/fullaod_enable
+    chmod 0777 /sys/devices/platform/goodix_ts.0/fod_en
+    chmod 0777 /sys/kernel/display_drivers/fp_result
+    chmod 0777 /sys/kernel/display_drivers/ofp_press_status
